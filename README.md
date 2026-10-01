@@ -1,51 +1,47 @@
 # Arati Uday Kamat
 
-**Independent Researcher** — Algorithmic DEX trading, counterfactual evaluation methodology, and DeFi microstructure auditing.
+**Independent Researcher** — algorithmic DEX trading, counterfactual evaluation methodology, and on-chain market-microstructure measurement.
+
+ORCID [0009-0000-4781-312X](https://orcid.org/0009-0000-4781-312X) · Website [aartikamat.github.io](https://aartikamat.github.io) (full list of papers, datasets and software with copy-ready citations)
 
 ## Research
 
-I build measurement infrastructure for what happens *after* algorithmic decisions. My core contribution is the **RED-2400** public benchmark and the **PRFS** (Post-Rejection Follow-up Sampling) methodology, which together close a systematic blind spot in algorithmic DEX trading: most production filter stacks reject candidate tokens but never measure what would have happened.
+I build measurement infrastructure for what happens *after* algorithmic decisions. Core contributions: the **RED-2400** public benchmark and the **PRFS** (Post-Rejection Follow-up Sampling) methodology, which measure what would have happened to the tokens an algorithmic filter rejects; and open, audited datasets on Solana pump.fun launches (graduation outcomes, coordinated sniper-wallet cohorts, and observation-pipeline coverage).
 
-## Published Datasets
+## Papers (preprints)
 
-- **RED-2400** (6,660 rejection events on Solana mainnet, 24-hour follow-up sampling)
-  - arXiv: [2605.12151](https://arxiv.org/abs/2605.12151)
-  - Zenodo: [10.5281/zenodo.19989074](https://doi.org/10.5281/zenodo.19989074)
-  - IEEE DataPort: [10.21227/c36z-hk34](https://doi.org/10.21227/c36z-hk34)
-  - Kaggle: [aratiudaykamat/red-2400-rejected-trading-events-on-solana](https://www.kaggle.com/datasets/aratiudaykamat/red-2400-rejected-trading-events-on-solana)
-  - HuggingFace: see datasets section
+- RED-2400: A Public Benchmark of Algorithmically-Rejected Trading Events with Outcome Labels — [arXiv 2605.12151](https://arxiv.org/abs/2605.12151)
+- Post-Rejection Follow-up Sampling: A Methodology for Counterfactual Outcome Measurement in Algorithmic DEX Trading — [arXiv 2606.08228](https://arxiv.org/abs/2606.08228)
+- Hour-Aware Adaptive Risk Management for Autonomous Memecoin Trading — [arXiv 2606.08232](https://arxiv.org/abs/2606.08232)
+- Outcome-Classified Precision Auditing of Filter Rules in Algorithmic DEX Trading — [arXiv 2607.02830](https://arxiv.org/abs/2607.02830)
+- Auditing Collector-Generated Graduation Labels on Pump.fun — [arXiv 2607.02823](https://arxiv.org/abs/2607.02823)
+- Coordinated Sniper Cohorts on Pump.fun — [arXiv 2607.02795](https://arxiv.org/abs/2607.02795)
+- Do Two On-Chain Observation Pipelines See the Same Tokens? Cross-Pipeline Coverage on the Solana pump.fun Launchpad — [arXiv 2609.18975](https://arxiv.org/abs/2609.18975)
 
-## Papers
+## Open datasets (CC-BY-4.0)
 
-| Paper | Status | Venue |
-|---|---|---|
-| Hour-Aware Adaptive Risk Management | In peer review | Ledger journal #632 |
-| PRFS Methodology (Post-Rejection Follow-up Sampling) | In review + arXiv deposited | — |
-| Outcome-Classified Precision Auditing of Filter Rules | In peer review | Algorithmic Finance ALG-26-0027 |
-| RED-2400: A Public Benchmark of Algorithmically-Rejected Trading Events | Published | arXiv 2605.12151 |
-| RED-2400 Replication Toolkit | Submitted | Journal of Open Source Software |
+- **RED-2400** — 6,660 rejection events with 24-hour follow-up: [Zenodo 10.5281/zenodo.19989074](https://doi.org/10.5281/zenodo.19989074) · [IEEE DataPort 10.21227/c36z-hk34](https://doi.org/10.21227/c36z-hk34) · [Kaggle](https://www.kaggle.com/datasets/aratiudaykamat/red-2400-rejected-trading-events-on-solana) · [Hugging Face](https://huggingface.co/datasets/AratiKamat/RED-2400)
+- **RED-PUMP** — pump.fun token launches: [Zenodo 10.5281/zenodo.20633486](https://doi.org/10.5281/zenodo.20633486) · [Hugging Face](https://huggingface.co/datasets/AratiKamat/red-pump-2026)
+- **RED-COHORT** — persistent sniper-wallet cohorts: [Zenodo 10.5281/zenodo.20978741](https://doi.org/10.5281/zenodo.20978741)
 
-## Replication
+## Software and replication
 
-- **JOSS Replication Toolkit:** [red2400-replication-toolkit](https://github.com/aartikamat/red2400-replication-toolkit) — 18/18 byte-identical reproducibility tests passing
-- **Dataset Reader:** [red-2400-reader](https://github.com/aartikamat/red-2400-reader)
-- **PRFS Reference Implementation:** [post-rejection-sampling](https://github.com/aartikamat/post-rejection-sampling)
+- [red2400-replication-toolkit](https://github.com/aartikamat/red2400-replication-toolkit) — 18/18 byte-identical reproducibility tests passing
+- [red-2400-reader](https://github.com/aartikamat/red-2400-reader) — dataset reader
+- [post-rejection-sampling](https://github.com/aartikamat/post-rejection-sampling) — PRFS reference implementation
+- [lifecycle-separation-2026](https://github.com/aartikamat/lifecycle-separation-2026) · [silent-killer](https://github.com/aartikamat/silent-killer) — paper reproducibility packages
 
-## Peer Review
+## Peer review
 
-- **JOSS Reviewer Pool** (Journal of Open Source Software)
-- **F1000Research** reviewer (TrackingId 26156334)
-- **TMLR Volunteer to Review** (Adaptive Off-Policy Inference, Paper 9391)
-- **Taylor & Francis Excellence in Peer Review Program**
-- **Web of Science Reviewer Recognition** (ex-Publons)
-- **OpenReview** profile across 80+ venues (NeurIPS, ICML, ICLR, ARR, TMLR)
+Completed manuscript reviews, including invited reviews for IEEE Access and the Journal of Trial and Error; reviews verified on Web of Science. Full record on the website.
 
 ## Identifiers
 
-- **Google Scholar:** [user=CWpdnloAAAAJ](https://scholar.google.com/citations?user=CWpdnloAAAAJ)
+- **ORCID:** [0009-0000-4781-312X](https://orcid.org/0009-0000-4781-312X)
+- **Google Scholar:** [CWpdnloAAAAJ](https://scholar.google.com/citations?user=CWpdnloAAAAJ)
 - **Web of Science ResearcherID:** PYY-2705-2026
-- **arXiv author page:** [kamat_a_2](https://arxiv.org/a/kamat_a_2)
-- **IEEE:** Senior Member elevation in review (2026-05-10)
+- **arXiv author page:** [kamat_a_1](https://arxiv.org/a/kamat_a_1)
+- **IEEE:** Senior Member
 
 ## Contact
 
