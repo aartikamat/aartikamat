@@ -1,6 +1,8 @@
 # Arati Uday Kamat
 
-**Independent Researcher** — algorithmic DEX trading, observational follow-up measurement of rejected decisions, and on-chain market-microstructure measurement.
+**Independent Researcher** — financial-systems risk and controls: auditing financial data and automated financial decisions.
+
+Previously sixteen years at IDBI Bank, India (2006–2022), Assistant Manager to Assistant General Manager (AGM from 2018).
 
 ORCID [0009-0000-4781-312X](https://orcid.org/0009-0000-4781-312X) · Website [aartikamat.github.io](https://aartikamat.github.io) (full list of papers, datasets and software with copy-ready citations)
 
@@ -12,14 +14,14 @@ I build measurement infrastructure for what happens *after* algorithmic decision
 
 - RED-2400: A Public Benchmark of Algorithmically-Rejected Trading Events with Outcome Labels — [arXiv 2605.12151](https://arxiv.org/abs/2605.12151)
 - Post-Rejection Follow-up Sampling: Measuring Outcomes of Rejected Decisions in Algorithmic DEX Trading — [arXiv 2606.08228](https://arxiv.org/abs/2606.08228)
-- Hour-Aware Adaptive Risk Management for Autonomous Memecoin Trading — [arXiv 2606.08232](https://arxiv.org/abs/2606.08232)
-- Outcome-Classified Precision Auditing of Filter Rules in Algorithmic DEX Trading — [arXiv 2607.02830](https://arxiv.org/abs/2607.02830)
-- Auditing Collector-Generated Graduation Labels on Pump.fun — [arXiv 2607.02823](https://arxiv.org/abs/2607.02823)
+- Hour-Aware Adaptive Risk Management for Autonomous Memecoin Trading on Solana DEXs: Evidence, Theory, and Design Lessons from a 15-Day Deployment — [arXiv 2606.08232](https://arxiv.org/abs/2606.08232)
+- Outcome-Classified Precision Auditing of Filter Rules in Algorithmic DEX Trading: Evidence from 2,400 Rejection Events — [arXiv 2607.02830](https://arxiv.org/abs/2607.02830)
+- Auditing Collector-Generated Graduation Labels on Pump.fun: Measurement Error and Temporal Non-Generalization — [arXiv 2607.02823](https://arxiv.org/abs/2607.02823)
 - Do Two On-Chain Observation Pipelines See the Same Tokens? Cross-Pipeline Coverage on the Solana pump.fun Launchpad — [arXiv 2609.18975](https://arxiv.org/abs/2609.18975)
 
 ## Open datasets (CC-BY-4.0)
 
-- **RED-2400** — 6,660 rejection events with 24-hour follow-up: [Zenodo 10.5281/zenodo.19989074](https://doi.org/10.5281/zenodo.19989074) · [IEEE DataPort 10.21227/c36z-hk34](https://doi.org/10.21227/c36z-hk34) · [Kaggle](https://www.kaggle.com/datasets/aratiudaykamat/red-2400-rejected-trading-events-on-solana) · [Hugging Face](https://huggingface.co/datasets/AratiKamat/RED-2400)
+- **RED-2400** — 6,660 rejection events with 24-hour follow-up: [Zenodo 10.5281/zenodo.19989074](https://doi.org/10.5281/zenodo.19989074) · [IEEE DataPort 10.21227/c36z-hk34](https://doi.org/10.21227/c36z-hk34) · [Kaggle](https://www.kaggle.com/datasets/aratiudaykamat/red-2400-data-rejected-trading-events-solana) · [Hugging Face](https://huggingface.co/datasets/AratiKamat/RED-2400)
 - **RED-PUMP** — pump.fun token launches: [Zenodo 10.5281/zenodo.20633486](https://doi.org/10.5281/zenodo.20633486) · [Hugging Face](https://huggingface.co/datasets/AratiKamat/red-pump-2026)
 
 ## Software and replication
