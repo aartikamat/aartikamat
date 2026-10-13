@@ -8,7 +8,7 @@ ORCID [0009-0000-4781-312X](https://orcid.org/0009-0000-4781-312X) · Website [a
 
 ## Research
 
-I build measurement infrastructure for what happens *after* algorithmic decisions. Core contributions: the **RED-2400** public benchmark and the **PRFS** (Post-Rejection Follow-up Sampling) methodology, which follow up the tokens an algorithmic filter rejects and record their observed outcomes; and open datasets on Solana pump.fun token launches.
+I build measurement infrastructure for what happens *after* algorithmic decisions. Core contributions: the **RED-2400** public benchmark of algorithmically rejected trading events; the **PRFS** (Post-Rejection Follow-up Sampling) methodology, a design for following up the tokens an algorithmic filter rejects (the archived example data come from a simpler production tracker); and open datasets on Solana pump.fun token launches.
 
 ## Papers (preprints)
 
@@ -21,13 +21,13 @@ I build measurement infrastructure for what happens *after* algorithmic decision
 
 ## Open datasets (CC-BY-4.0)
 
-- **RED-2400** — 6,660 rejection events with 24-hour follow-up: [Zenodo 10.5281/zenodo.19989074](https://doi.org/10.5281/zenodo.19989074) · [IEEE DataPort 10.21227/c36z-hk34](https://doi.org/10.21227/c36z-hk34) · [Kaggle](https://www.kaggle.com/datasets/aratiudaykamat/red-2400-data-rejected-trading-events-solana) · [Hugging Face](https://huggingface.co/datasets/AratiKamat/RED-2400)
+- **RED-2400** — 6,660 rejection events; event-level follow-up linked for 3,333 (about half): [Zenodo 10.5281/zenodo.19989074](https://doi.org/10.5281/zenodo.19989074) · [IEEE DataPort 10.21227/c36z-hk34](https://doi.org/10.21227/c36z-hk34) · [Kaggle](https://www.kaggle.com/datasets/aratiudaykamat/red-2400-data-rejected-trading-events-solana) · [Hugging Face](https://huggingface.co/datasets/AratiKamat/RED-2400)
 - **RED-PUMP** — pump.fun token launches: [Zenodo 10.5281/zenodo.20633486](https://doi.org/10.5281/zenodo.20633486) · [Hugging Face](https://huggingface.co/datasets/AratiKamat/red-pump-2026)
 
 ## Software and replication
 
 - [red2400-replication-toolkit](https://github.com/aartikamat/red2400-replication-toolkit) — replication harness for the RED-2400 benchmark; current release v2
-- [red-2400-reader](https://github.com/aartikamat/red-2400-reader) — dataset reader
+- [red-2400-reader](https://github.com/aartikamat/red-2400-reader) — legacy reader for the May 2026 JSON-lines file; current RED-2400 files are CSV
 - [post-rejection-sampling](https://github.com/aartikamat/post-rejection-sampling) — PRFS reference implementation
 - [lifecycle-separation-2026](https://github.com/aartikamat/lifecycle-separation-2026) · [silent-killer](https://github.com/aartikamat/silent-killer) — paper reproducibility packages
 
