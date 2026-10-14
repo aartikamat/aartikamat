@@ -2,7 +2,7 @@
 
 **Independent Researcher** — financial-systems risk and controls: auditing financial data and automated financial decisions.
 
-Previously sixteen years at IDBI Bank, India (2006–2022), Assistant Manager to Assistant General Manager (AGM from 2018).
+Previously nearly sixteen years at IDBI Bank, India (2006–2022), Assistant Manager to Assistant General Manager (AGM from 2018).
 
 ORCID [0009-0000-4781-312X](https://orcid.org/0009-0000-4781-312X) · Website [aartikamat.github.io](https://aartikamat.github.io) (full list of papers, datasets and software with copy-ready citations)
 
